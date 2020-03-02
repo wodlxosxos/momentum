@@ -1,5 +1,7 @@
 body {
   background-color: #34495e;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .form,
@@ -28,4 +30,8 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.js-toDoForm .input-todo {
+  border-radius: 10px;
 }
